@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .map-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #c0c0c0;
+    position: relative;
+  }
+  
+  .cannon {
+    width: 30px;
+    height: 150px;
+    background-color: #222;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-origin: bottom center;
+  }
+  
+  .cannonball {
+    position: absolute;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.enemy {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: #00f;
+  border-radius: 50%;
+}
+
+.tough-enemy {
+  background-color: orange;
+}
+
+.dodging-enemy {
+  background-color: green;
+}
+
+.power-up {
+  position: absolute;
+  bottom: 0;
+  width: 15px;
+  height: 15px;
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+#lives-counter {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
